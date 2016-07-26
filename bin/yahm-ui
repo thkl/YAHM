@@ -273,7 +273,7 @@ do_finish_menu() {
       fi
       
       progress "Starting ${LXCNAME} LXC container"
-      lxc-start -n ${LXCNAME}
+      lxc-start -n ${LXCNAME} -d
     fi
   fi
 
